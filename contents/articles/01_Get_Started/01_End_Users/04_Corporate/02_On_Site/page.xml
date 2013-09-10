@@ -1,0 +1,21 @@
+<content type="application/x.deki-text" title="On-Site" unsafe="true"><body xmlns:eval="http://mindtouch.com/2007/dekiscript"><p class="comment">The following script renders the table of contents for this page.</p>
+<pre class="script">template(&quot;MindTouch/IDF/Views/TableOfContents&quot;);</pre>
+<h2>Overview</h2>
+<p class="comment">Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.</p>
+<p>Welcome to Sugar Corporate! You should be ready to proceed using your Sugar On-Site instance. Go through the following steps to log in and begin configuring Sugar.</p>
+<h3>Log In</h3>
+<p>Once your administrator creates a user account for you, they will either provide you with your password or one will be emailed directly to you by Sugar depending on the system settings. In addition, you should also have URL of your instance that ends in sugarondemand.com or sugaropencloud.eu. Take this information to log in for the first time.</p>
+<h3>Configure</h3>
+<p>Upon your first successful login, you will be prompted to go through a user wizard:</p>
+<h4>User Wizard</h4>
+<p>Every user is prompted through the user wizard on their first successful login. All of these settings can be changed under your user profile at a later time if desired:</p>
+<ol> <li><strong>Your Information</strong>: Enter all your personal information including name, email address, physical address and Instant Messenger name.</li> <li><strong>Your Locale</strong>:<strong>&#160;</strong>Set your desired date, time, language, currency and name formats.</li>
+</ol>
+<h2>What's Next</h2>
+<p class="comment">Use the section below to describe additional considerations that were omitted for brevity and to guide the reader to further tutorials.</p>
+<p>Now that you have logged in and configured some of the recommended settings for Sugar, please review the following resources to take the next steps in building a successful and powerful Sugar implementation!</p>
+<ul> <li><a title="Mobile" href.path="//01_Get_Started/01_End_Users/03_Professional/03_Mobile">Get Started with Sugar Mobile</a>: If you are interested in configuring your smartphone to work with Sugar, start here.</li> <li><a title="Plug-Ins" href.path="//01_Get_Started/01_End_Users/03_Professional/04_Plug-Ins">Get Started with Sugar Plug-Ins</a>: Integrating with Microsoft Office is only a few clicks away!</li> <li><a title="02_Documentation/01_Sugar_Editions/03_Sugar_Corporate" href.path="//02_Documentation/01_Sugar_Editions/03_Sugar_Corporate">Documentation</a>:&#160;Review the Application guide for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.</li> <li><a title="03_Training" href.path="//03_Training">Training</a>:&#160;Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.</li> <li><a title="04_Find_Answers/02KB" href.path="//04_Find_Answers/02KB">Knowledge Base</a>: Review our extensive online knowledge base for answers to your questions, solutions to your business needs, and more!</li> <li><a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums">Customer Forums</a>:&#160;Our forums&#160;are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.</li>
+</ul>
+<h2>Related</h2>
+<p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&#160; Remove this section if you do not want to show related pages.</p>
+<pre class="script">template(&quot;MindTouch/IDF/SeeAlso&quot;)</pre><br /></body></content>
