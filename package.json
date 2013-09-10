@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "author": "Bran Sorem <bransorem@gmail.com>",
+  "contributors": [
+    {}
+  ],
+  "dependencies": {
+    "moment": "2.x",
+    "underscore": "1.4.x",
+    "typogr": "0.5.x"
+  },
+  "devDependencies": {
+    "xmldoc": "0.1.2",
+    "findit": "0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bsorem-sugarcrm/Pine_Needles.git"
+  },
+  "license": "None",
+  "engines": {
+    "node": "0.10.18"
+  }
+}
