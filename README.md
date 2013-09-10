@@ -27,3 +27,11 @@ This should convert the page.xml files in /content/articles to the appropriate m
 Now, you can build the site.
 
 	wintersmith build
+
+
+TODOs:
+
+* anchor tags with relative href need to be updated
+* design/develop/implement templates
+* lots more…
+
