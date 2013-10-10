@@ -1,0 +1,110 @@
+---
+title: Mobile
+template: article.jade
+---
+
+<div class="container">
+  <p class="comment">The following script renders the table of contents for this page.</p>
+  <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
+  <h2>Overview</h2>
+  <p class="comment">Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.</p>
+  <p>Sugar has two different Mobile products that are available to connect to your Sugar instance. Our mobile offerings allow you to quickly access and update pertinent data while on the road. As a Sugar Professional customer, you have access to the basic Sugar Mobile application for iPhone and Android. Sugar Mobile+ for iPhone, iPad and BlackBerry is available at an additional cost for Sugar Professional customers so please check with your administrator to see if you can use this application.</p>
+  <h2>Sugar Mobile</h2>
+  <p class="comment">Use the section below to describe the goal of the tutorial. You might want to offer prerequisites that must be met before the user begins the task, such as previous tutorials, configuration or product setting requirements.</p>
+  <p>The Sugar Mobile application requires minimal setup for you to access key data on the go. The information below will guide you through the key elements to begin using Sugar Mobile. Please note that the Sugar Mobile application is compatible with Sugar 6.1 and higher for iPhone and Sugar 6.2 and higher for Android. The Sugar Mobile application is not compatible with the iPad or any Android tablets.</p>
+  <p class="comment">Use each step section to describe the instructions needed to achieve the goal.</p>
+  <h3>Log Into Sugar Mobile</h3>
+  <p>The Sugar Mobile application is available for download in the Google Play Store and iTunes App Store. Download the application to your phone and open it once it is installed. Upon opening the application for the first time, you will be directed to the login screen. Enter the following information to log in:</p>
+  <ul>
+    <li>
+      - Your username for logging into Sugar Professional
+      <strong>Username</strong>
+    </li>
+    <li>
+      - Your password for logging into Sugar Professional
+      <strong>Password</strong>
+    </li>
+    <li>
+      - The full URL of your Sugar Professional instance including https or http (e.g. https://<myinstancename>.sugarondemand.com)
+      <strong>Sugar URL</strong>
+    </li>
+  </ul>
+  <p>Once your credentials are entered, click the 'Login' button and begin using Sugar Mobile!</p>
+  <h3>What's Next</h3>
+  <p>If you still have questions about configuring or using Sugar Mobile, please review the following resources to find the answers you need!</p>
+  <ul>
+    <li>
+      <a title="02_Documentation/02_Sugar_Mobile_and_Mobile_Plus/Sugar_Mobile/Sugar_Mobile_for_iPhone_User_Guide" href="//02_Documentation/02_Mobile_Solutions/Sugar_Mobile/Sugar_Mobile_for_iPhone_User_Guide">iPhone User Guide</a>
+    </li>
+    <li>
+      <a title="02_Documentation/02_Sugar_Mobile_and_Mobile_Plus/Sugar_Mobile/Sugar_Mobile_for_Android_User_Guide" href="//02_Documentation/02_Mobile_Solutions/Sugar_Mobile/Sugar_Mobile_for_Android_User_Guide">Android User Guide</a>
+    </li>
+    <li>
+      <a title="04_Find_Answers/02KB" href="//04_Find_Answers/02KB">Knowledge Base</a>
+    </li>
+    <li>
+      <a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums">Customer Forums</a>
+    </li>
+  </ul>
+  <h2>Sugar Mobile+</h2>
+  <p class="comment">Use the section below to describe additional considerations that were omitted for brevity and to guide the reader to further tutorials.</p>
+  <p>Please note that Sugar Mobile+ is not available to Sugar Professional customers unless explicitly purchased. Please contact your Sugar administrator if you would like to use Sugar Mobile+. If your company purchased Sugar Mobile+ with the Sugar Professional subscription, follow the steps below to get Mobile+ configured for use!</p>
+  <h3>Download Mobile+</h3>
+  <h4>iPhone and iPad</h4>
+  <p>Search for 'Sugar Mobile Plus' in the iTunes App Store and download the application to your device.</p>
+  <h4>BlackBerry</h4>
+  <p>Open the following URL in your device's browser to download the client:</p>
+  <p>
+    <span>
+      <span>
+        <span>
+          <span>
+            <a class="external" href="http://www.sugarcrm.com/sugar-mobile-plus-bb-client-v1">http://www.sugarcrm.com/sugar-mobile-plus-bb-client-v1</a>
+          </span>
+        </span>
+      </span>
+    </span>
+  </p>
+  <h3>Log Into Mobile+</h3>
+  <p>If you receive any errors during this process, please contact your Sugar administrator to ensure the Mobile+ server is properly configured for use.</p>
+  <ol>
+    <li>Once the application is downloaded and installed on your device, open the application and click 'Connect to My Sugar'.</li>
+    <li>
+      Once the application opens, you will be prompted to fill in the following fields:
+      <ol>
+        <li>
+          - Enter your On-Demand instance URL without the 'https'. (e.g. <myinstancename>.sugarondemand.com) This URL can be obtained from your Sugar administrator if you do not have this information.
+          <strong>On-Demand Instance Name</strong>
+        </li>
+        <li>
+          - Enter your email address
+          <strong>Email</strong>
+        </li>
+      </ol>
+    </li>
+    <li>Click the 'Activate' button. This will start the activation process, which may take about a minute to complete.</li>
+    <li>After the activation process is complete, a login screen will appear. Enter the login credentials you use to log into your Sugar Instance.</li>
+  </ol>
+  <h3>Push Data to Your Device</h3>
+  <p>When you first log into the Sugar Mobile Plus app, it will appear empty. Please contact your Sugar administrator to push the initial data load to your phone. Once the data load begins, it is recommended that your device have a consistent internet connection (e.g. Wi-Fi) to prevent any interruption.</p>
+  <h3>What's Next</h3>
+  <p>If you still have questions about configuring or using Sugar Mobile+, please review the following resources to find the answers you need!</p>
+  <ul>
+    <li>
+      <a title="02_Documentation/02_Sugar_Mobile_and_Mobile_Plus/Sugar_Mobile_Plus/Sugar_Mobile_Plus_for_iPhone" href="//02_Documentation/02_Mobile_Solutions/Sugar_Mobile_Plus/Sugar_Mobile_Plus_for_iPhone_and_iPad_User_Guide">Mobile+ iPhone User Guide</a>
+    </li>
+    <li>
+      <a title="02_Documentation/02_Sugar_Mobile_and_Mobile_Plus/Sugar_Mobile_Plus/Sugar_Mobile_Plus_for_Blackberry" href="//02_Documentation/02_Mobile_Solutions/Sugar_Mobile_Plus/Sugar_Mobile_Plus_for_Blackberry_User_Guide">Mobile+ BlackBerry User Guide</a>
+    </li>
+    <li>
+      <a title="04_Find_Answers/02KB" href="//04_Find_Answers/02KB">Knowledge Base</a>
+    </li>
+    <li>
+      <a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums">Customer Forums</a>
+    </li>
+  </ul>
+  <h2>Related</h2>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
+  <br/>
+</div>
