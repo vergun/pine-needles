@@ -1,3 +1,16 @@
 div.container
   div.row
-    div.col-md-12
+    div.col-md-8
+      - rel = page.filepath.relative.replace('articles/', '')
+      - dirs = rel.replace('/index.md', '').split('/')
+      each dir, i in dirs
+        - pretty = dir.substring(2, dir.length).replace(/_/g, ' ')
+        if i > 0
+          span &nbsp;>&nbsp;
+        if i < dirs.length - 1
+          a(href="/#{ rel.substring(0, rel.indexOf(dir) + dir.length) }/")= pretty
+        else
+          span= pretty
+
+    div.col-md-4
+      include search
