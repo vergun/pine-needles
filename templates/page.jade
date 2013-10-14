@@ -1,0 +1,17 @@
+extends layout
+
+block page_title
+  h1= page.title
+
+append vars
+  - bodyclass = 'pages-detail'
+
+prepend title
+  | #{ page.title + " - "}
+
+block header
+  h1= page.title
+
+block content
+  pages.page
+    section.content!= typogr(page.html).typogrify()
