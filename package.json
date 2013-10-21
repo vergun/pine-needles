@@ -7,7 +7,8 @@
   "dependencies": {
     "moment": "2.x",
     "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "typogr": "0.5.x",
+    "markdown-pdf": "~1.1.1"
   },
   "devDependencies": {
     "xmldoc": "0.1.2",

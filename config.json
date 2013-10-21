@@ -6,6 +6,7 @@
     "description": "SugarCRM Support"
   },
   "plugins": [
+    "./plugins/pdf.coffee"
   ],
   "require": {
     "moment": "moment",
