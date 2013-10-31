@@ -1,8 +1,8 @@
-abda---abadafs title: Plug-Ins
+bbbbbbabda---abadafs title: Plug-Ins
 template: article.jade
 ---
-&lt;div class="conabasdfsadfsadtainer"&gt;
-&lt;p class="comment"&gt;The following script renders the table of contents for this page.&lt;/p&gt;
+&lt;div abadaclass="conabasdfsadfsadtainer"&gt;
+&lt;p class="comment"&gt;The following script renders the table of contents for this page.&lt;/pbbb&gt;
 &lt;pre class="script"&gt;template("MindTouch/IDF/Views/TableOfContents");&lt;/pre&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p class="comment"&gt;Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.&lt;/p&gt;
