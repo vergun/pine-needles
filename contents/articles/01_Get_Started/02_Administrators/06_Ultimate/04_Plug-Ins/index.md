@@ -7,7 +7,7 @@ template: article.jade
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p class="comment"&gt;Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.&lt;/p&gt;
 &lt;p&gt;
-With your Sugar Ultimate subscription, you have access to the Microsoft Office and Lotus Notes plug-ins. You can download and install your plug-ins as described in . We recommend to always run the latest release of the plug-ins as they are backwards compatible and we only support the latest releases. Read below to understand what the primary functions are of each plug-in so that you can quickly decide what will help you best in integrating with Sugar.
+With your Sugar Ultimate subscription, you have access to the Microsoft Office and Lotus Notes plug-ins. You can download and install your plug-ins as described in . We recommend to always run the latest release of the plug-ins as they are backwards compatible and we only support the latest releases. Read below to understand what the primary functions are of each plug-in so that you can quickly decide what will help you best in integrating with Sugar.a
 &lt;a title="04_Find_Answers/02KB/01Getting_Started/How_to_Download_and_Install_Sugar_Plug-Ins" href="//04_Find_Answers/02KB/01Getting_Started/Downloading_and_Installing_Sugar_Plug-ins"&gt;this article&lt;/a&gt;
 &lt;/p&gt;
 &lt;h3&gt;Microsoft Outlook&lt;/h3&gt;
