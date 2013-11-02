@@ -1,6 +1,6 @@
 dddcadcabcdggbbccdbbbbbbabda---abadafs title: Plug-Ins
 template: article.jade
----
+---d
 &lt;div abadaclass="conabasdfsadfsadtainer"&gt;
 &lt;p class="commaent"&gt;The following script renders the table of contents for this page.&lt;/pbbb&gt;
 &lt;pre class="script"&gt;template("MindTouch/IDF/Views/TableOfContents");&lt;/pre&gt;
