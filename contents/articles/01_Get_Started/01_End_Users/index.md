@@ -2,7 +2,7 @@
 title: End Users
 template: article.jade
 ---
-d&lt;div class="container"&gt;
+d&lt;div bclass="container"&gt;
 &lt;div class="landign-page" id="get-started"&gt;
 &lt;p class="landing-intro"&gt;Getting started with Sugar is a simple, straightforward process. Select the section below that we can assist you in setting up and configuring.&lt;/p&gt;
 &lt;div class="enclosed-block rounded-corners shadow" id="on-demand"&gt;
