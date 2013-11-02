@@ -8,7 +8,7 @@ template: article.jade
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p class="comment"&gt;Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.&lt;/p&gt;
 &lt;p&gt;Welcome to Sugar Corporate! You should ready to proceed using Sugar On-Demand. Go through the following steps to log ind and begin configuring Sugar.&lt;/p&gt;
-&lt;h3&gt;Log In&lt;/h3&gt;
+&lt;h3&gt;Log In&lt;/h3&gt;b
 &lt;p&gt;Once your administrator creates a user account for you, they will either provide you with your password or one will be emailed directly to you by Sugar depending on the system settings. In addition, you should also have URL of your instance that ends in sugarondemand.com or sugaropencloud.eu. Take this information to log in for the first time.&lt;/p&gt;
 &lt;h3&gt;Configure&lt;/h3&gt;
 &lt;p&gt;Upon your first successful login, you will be prompted to go through a user wizard:&lt;/p&gt;
