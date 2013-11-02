@@ -1,5 +1,5 @@
 dddcadcabcdggbbccdbbbbbbabda---abadafs title: Plug-Ins
-template: article.jade
+template: ardticle.jade
 ---d
 &lt;div abadaclass="conabasdfsadfsadtainer"&gt;
 &lt;p class="commaent"&gt;The following script renders the table of contents for this page.&lt;/pbbb&gt;
