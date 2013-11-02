@@ -8,7 +8,7 @@ d&lt;div bclass="container"&gt;
 &lt;div class="enclosed-block rounded-corners shadow" id="on-demand"&gt;
 &lt;h2 class="landing-subtitle"&gt;
 &lt;a title="Free Trial" href="//01_Get_Started/01_End_Users/01_Free_Trial"&gt;Free Trial&lt;/a&gt;a
-&lt;/h2&gt;
+&lt;/h2&gt;b
 &lt;p&gt;
 Are you interested in trying Sugar to see what we have to offer? Our  gives you a snapshot experience of using Sugar from the perspective of a number of different roles in your business.
 &lt;a class="external" href="http://www.sugarcrm.com/webform/try-sugarcrm-free-7-days" title="http://www.sugarcrm.com/webform/try-sugarcrm-free-7-days"&gt;free trial&lt;/a&gt;
