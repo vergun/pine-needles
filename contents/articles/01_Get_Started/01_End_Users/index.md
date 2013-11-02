@@ -7,7 +7,7 @@ d&lt;div bclass="container"&gt;
 &lt;p class="landing-intro"&gt;Getting started with Sugar is a simple, straightforward process. Select the section below that we can assist you in setting up and configuring.&lt;/p&gt;
 &lt;div class="enclosed-block rounded-corners shadow" id="on-demand"&gt;
 &lt;h2 class="landing-subtitle"&gt;
-&lt;a title="Free Trial" href="//01_Get_Started/01_End_Users/01_Free_Trial"&gt;Free Trial&lt;/a&gt;
+&lt;a title="Free Trial" href="//01_Get_Started/01_End_Users/01_Free_Trial"&gt;Free Trial&lt;/a&gt;a
 &lt;/h2&gt;
 &lt;p&gt;
 Are you interested in trying Sugar to see what we have to offer? Our  gives you a snapshot experience of using Sugar from the perspective of a number of different roles in your business.
