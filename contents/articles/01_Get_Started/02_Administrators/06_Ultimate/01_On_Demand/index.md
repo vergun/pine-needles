@@ -2,225 +2,224 @@
 title: On-Demand
 template: article.jade
 ---
-
-<div class="container">
-  <p class="comment">The following script renders the table of contents for this page.</p>
-  <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
-  <h2>Overview</h2>
-  <p class="comment">Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.</p>
-  <p>Every customer who purchases Sugar Ultimate has the option to run Sugar on a server of their choice or in our On-Demand environment. Running in our On-Demand environment allows for a number of value-added benefits:</p>
-  <ul>
-    <li>
-      - Our On-Demand Operations team maintains the entire server environment for you. We take the proper precautions to ensure the customizations our customers load will not negatively impact the global environment. Additionally, you can always check on the status of our On-Demand servers at .
-      <strong>Stability</strong>
-      <a class="external" href="http://status.sugarcrm.com/" title="http://status.sugarcrm.com/">http://status.sugarcrm.com/</a>
-    </li>
-    <li>
-      - We will keep your instance updated to the latest release of Sugar to ensure you are running with the most current features and functions.
-      <strong>Up-to-date</strong>
-    </li>
-    <li>
-      - All of our On-Demand instances run on HTTPS to ensure your work is secure. Additionally, we back up your data nightly and maintain those backups for a period of 90 days.
-      <strong>Security</strong>
-    </li>
-  </ul>
-  <p>You should now be ready to proceed using Sugar On-Demand. Go through the following steps to log in and begin configuring Sugar!</p>
-  <h3>Log In</h3>
-  <p>
-    After purchasing Sugar, you should receive a Welcome email from orders@sugarcrm.com with a subject similar to "", and it is important to keep record of this email in case you have any billing questions. If you did not receive a Welcome email, please email orders@sugarcrm.com to have a copy forwarded. The Welcome email contains the following information:
-    <strong>SugarCRM Inc.: Order # 52000 notification</strong>
-  </p>
-  <ul>
-    <li>A summary of all products purchased along with your order number.</li>
-    <li>A link to your On-Demand instance and admin login credentials.</li>
-    <li>
-      Your download key for downloading the software, plug-ins and documentation from our .
-      <a class="external" href="https://www.sugarcrm.com/sugarshop/download" title="https://www.sugarcrm.com/sugarshop/download">Download Manager</a>
-    </li>
-  </ul>
-  <h3>Configure</h3>
-  <p>Upon your first successful login, you will be prompted to go through two configuration wizards:</p>
-  <h4>Admin Wizard</h4>
-  <p>The Admin Wizard assists you with configuring the most common systemwide settings. All of these settings can be changed under the Admin section at a later time if desired:</p>
-  <ol>
-    <li>
-      : The system name appears in the browser tab, and the company logo shows in the top left corner of Sugar.
-      <strong>Branding</strong>
-    </li>
-    <li>
-      : Set the default date, time, language, currency and name formats for the system.
-      <strong>System Locale Settings</strong>
-    </li>
-    <li>
-      :Enter the credentials for the system outbound email server as this is used for delivering user notifications, forgotten passwords, workflow alerts and much more. You may need to review  to allow your SMTP server to communicate with our On-Demand environment.
-      <strong>SMTP Server Specification</strong>
-      <strong/>
-      <a title="04_Find_Answers/02KB/02Administration/100Email/Configuring_Your_SMTP_Server_to_Work_with_Your_On-Demand_Sugar_Instance_(IP_Ranges)" href="//04_Find_Answers/02KB/02Administration/100Email/Configuring_Your_SMTP_Server_to_Work_With_On-Demand">the following article</a>
-    </li>
-  </ol>
-  <h4>User Wizard</h4>
-  <p>Once the Admin Wizard is completed, you are then directed to the User Wizard. Every user is prompted through this wizard on their first successful login. All of these settings can be changed under the user's profile at a later time if desired:</p>
-  <ol>
-    <li>
-      : Enter all your personal information including name, email address, physical address and Instant Messenger name.
-      <strong>Your Information</strong>
-    </li>
-    <li>
-      :Set your desired date, time, language, currency and name formats.
-      <strong>Your Locale</strong>
-      <strong/>
-    </li>
-  </ol>
-  <h3>Customer Portal</h3>
-  <p>With Sugar Ultimate, we also provide you the option to configure a customer portal so that your customers can log in, submit cases and bugs, review your public knowledge base, and much more. With the customer portal, you have two options for hosting: On-Demand or On-Site. The following is a comparison breakdown between the two hosting options:</p>
-  <table border="1" cellpadding="1" cellspacing="1" style="width: 100%; table-layout: fixed;">
-    <tbody>
-      <tr>
-        <td>
-          <strong>Feature</strong>
-        </td>
-        <td>
-          <strong>On-Demand Portal</strong>
-        </td>
-        <td>
-          <strong>On-Site Portal</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>Installation & Setup</td>
-        <td>The initial installation and configuration of the portal is performed by our Operations team once a request is received from you via a support ticket.</td>
-        <td>The installation and configuration must be completed by you. The server hosting the portal must be capable of processing PHP web pages.</td>
-      </tr>
-      <tr>
-        <td>Advanced Configuration & Customization</td>
-        <td>Form layouts can be defined via the Admin interface from the main application. Code level customization and visual changes will need to be performed by our Professional Services team.</td>
-        <td>Form layouts can be define via the Admin interface from the main application. Code level customizations and visual changes can be performed on the portal pages by a developer.</td>
-      </tr>
-      <tr>
-        <td>Authorized Contacts</td>
-        <td>Up to 50 contacts can be authorized for portal access.</td>
-        <td>An unlimited number of contacts can be authorized for portal access. This restriction must be lifted on the main application so a support ticket should be filed for this request.</td>
-      </tr>
-    </tbody>
-  </table>
-  <p/>
-  <h4>On-Demand Portal</h4>
-  <p>
-    If you wish to have SugarCRM host your customer portal, please . Our operations team will set up the portal with your instance of Sugar and we will provide you rest to of the details to get started using the portal. Once the portal is set up, review our  for your version of Sugar Ultimate.
-    <a class="external" href="http://production.sugarcrm.com/support/portal" title="http://production.sugarcrm.com/support/portal">file a support ticket</a>
-    <a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate">Portal User Guide</a>
-  </p>
-  <h4>On-Site Portal</h4>
-  <p>
-    To host the portal on your own server, you will first need to  for your version of Sugar Ultimate. Once the files are downloaded, please review the  for the appropriate version. This guide will walk you through the installation and initial configuration to have a functioning customer portal. Finally, review the  for your version to understand how to configure and utilize the portal moving forward.
-    <a class="external" href="http://production.sugarcrm.com/sugarshop/downloads" title="http://production.sugarcrm.com/sugarshop/downloads">download the portal files</a>
-    <a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate">Portal Installation Guide</a>
-    <a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate">Portal User Guide</a>
-  </p>
-  <h3>Recommended Sugar Settings</h3>
-  <p>With your On-Demand instance, there a few other settings you should be familiar with as an administrator to ensure you will receive the best performance possible:</p>
-  <table border="1" cellpadding="1" cellspacing="1" style="width: 100%; table-layout: fixed;">
-    <tbody>
-      <tr>
-        <td>
-          <strong>Setting</strong>
-        </td>
-        <td>
-          <strong>Location</strong>
-        </td>
-        <td style="width: 81px;">
-          <strong>Default Value</strong>
-        </td>
-        <td style="width: 234px;">
-          <strong>Description</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>Maximum upload size</td>
-        <td>Admin > System Settings</td>
-        <td style="text-align: center; width: 81px;">30000000 (~30 MB)</td>
-        <td style="text-align: left; width: 234px;">The 'Maximum upload size' controls the maximum file size your users can upload into Sugar. The maximum our environment will allow is 32 MB, and Ultimate customers are allotted 250 GB of total file and database storage with On-Demand.</td>
-      </tr>
-      <tr>
-        <td>ListView items per page</td>
-        <td>Admin > System Settings</td>
-        <td style="text-align: center; width: 81px;">20</td>
-        <td style="width: 234px;">This setting controls the maximum number of records shown per page on a module's listview. We recommend that this setting remain between 20 and 100 to keep within acceptable performance levels. As additional fields are added to the listview, this number should be at the lower end of the recommended setting.</td>
-      </tr>
-      <tr>
-        <td>Subpanel items per page</td>
-        <td>Admin > System Settings</td>
-        <td style="text-align: center; width: 81px;">10</td>
-        <td style="width: 234px;">Similar to the ListView items per page, this setting is not recommended to be above 10. Subpanels show on a module detailview and most modules will display multiple subpanels. Increasing this number will result in decreased performance for your users.</td>
-      </tr>
-      <tr>
-        <td>Developer Mode</td>
-        <td>Admin > System Settings</td>
-        <td style="text-align: center; width: 81px;">Off</td>
-        <td style="width: 234px;">Developer Mode is a setting intended for developers to test out code-level customizations without the need to manually rebuild the cache. This setting is recommended to be turned off to ensure optimal performance for end users.</td>
-      </tr>
-      <tr>
-        <td>Display module icon as favicon</td>
-        <td>Admin > System Settings</td>
-        <td style="text-align: center; width: 81px;">Off</td>
-        <td style="width: 234px;">If your users utilize tab browsing frequently, turning this setting on will help them efficiently manage their browser tabs. With the setting enabled, the tab label will reflect an icon corresponding with the module in use as well the record's name (if applicable).</td>
-      </tr>
-      <tr>
-        <td>Log Level</td>
-        <td>Admin > System Settings</td>
-        <td style="text-align: center; width: 81px;">Fatal</td>
-        <td style="width: 234px;">'Log Level' governs the level of logging in Sugar. Unless otherwise instructed for troubleshooting, it is not recommended to change this level from the default setting.</td>
-      </tr>
-      <tr>
-        <td>Tracker Performance</td>
-        <td>Admin > Tracker</td>
-        <td style="text-align: center; width: 81px;">Off</td>
-        <td style="width: 234px;">'Tracker Peformance' should only be used for diagnostics. Please leave this setting disabled unless instructed by SugarCRM Support.</td>
-      </tr>
-      <tr>
-        <td>Tracker Queries</td>
-        <td>Admin > Tracker</td>
-        <td style="text-align: center; width: 81px;">Off</td>
-        <td style="width: 234px;">'Tracker Queries' should only be used for diagnostics. Please leave this setting disabled unless instructed by SugarCRM Support.</td>
-      </tr>
-    </tbody>
-  </table>
-  <p/>
-  <h2>What's Next</h2>
-  <p class="comment">Use the section below to describe additional considerations that were omitted for brevity and to guide the reader to further tutorials.</p>
-  <p>Now that you have logged in and configured some of the recommended settings for Sugar Ultimate, please review the following resources to take the next steps in building a successful and powerful Sugar implementation!</p>
-  <ul>
-    <li>
-      : If you are interested in configuring your smartphone to work with Sugar, start here.
-      <a title="01_Get_Started/02_Administrators/06_Ultimate/03_Mobile" href="//01_Get_Started/02_Administrators/06_Ultimate/03_Mobile">Get Started with Sugar Mobile</a>
-    </li>
-    <li>
-      : Integrating Microsoft Office and Lotus Notes and only a few clicks away!
-      <a title="01_Get_Started/02_Administrators/06_Ultimate/04_Plug-Ins" href="//01_Get_Started/02_Administrators/06_Ultimate/04_Plug-Ins">Get Started with Sugar Plug-Ins</a>
-    </li>
-    <li>
-      : Before you begin configuring Sugar, we highly recommend reviewing our best practices on adding custom modules to Sugar.
-      <a title="04_Find_Answers/02KB/02Administration/100Studio_and_Module_Builder/Best_Practices_When_Building_Custom_Modules" href="//04_Find_Answers/02KB/02Administration/100Studio_and_Module_Builder/01_Best_Practices_When_Building_Custom_Modules">Best Practices When Building Custom Modules</a>
-    </li>
-    <li>
-      : Review the Administration and Application guides for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.
-      <a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate">Documentation</a>
-    </li>
-    <li>
-      : Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.
-      <a title="03_Training" href="//03_Training">Training</a>
-    </li>
-    <li>
-      : Review our extensive online knowledge base for answers to your questions, solutions to your business needs, and more!
-      <a title="04_Find_Answers/02KB" href="//04_Find_Answers/02KB">Knowledge Base</a>
-    </li>
-    <li>
-      : Our forums are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.
-      <a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums">Customer Forums</a>
-    </li>
-  </ul>
-  <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
-  <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
-</div>
+&lt;div class="container"&gt;
+&lt;p class="comment"&gt;The following script renders the table of contents for this page.&lt;/p&gt;
+&lt;pre class="script"&gt;template("MindTouch/IDF/Views/TableOfContents");&lt;/pre&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p class="comment"&gt;Use the section below to provide a short description of the tutorial. The section is albso used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.&lt;/p&gt;
+&lt;p&gt;Every customer who purchases Sugar Ultimate has the option to run Sugar on a server of their choice or in our On-Demand environment. Running in our On-Demand environment allows for a number of value-added benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+- Our On-Demand Operations team maintains the entire server environment for you. We take the proper precautions to ensure the customizations our customers load will not negatively impact the global environment. Additionally, you can always check on the status of our On-Demand servers at&nbsp;.
+&lt;strong&gt;Stability&lt;/strong&gt;
+&lt;a class="external" href="http://status.sugarcrm.com/" title="http://status.sugarcrm.com/"&gt;http://status.sugarcrm.com/&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+- We will keep your instance updated to the latest release of Sugar to ensure you are running with the most current features and functions.
+&lt;strong&gt;Up-to-date&lt;/strong&gt;
+&lt;/li&gt;
+&lt;li&gt;
+- All of our On-Demand instances run on HTTPS to ensure your work is secure. Additionally, we back up your data nightly and maintain those backups for a period of 9\. days.
+&lt;strong&gt;Security&lt;/strong&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You should now be ready to proceed using Sugar On-Demand. Go through the following steps to log in and begin configuring Sugar!&lt;/p&gt;
+&lt;h3&gt;Log In&lt;/h3&gt;
+&lt;p&gt;
+After purchasing Sugar, you should receive a Welcome email from orders@sugarcrm.com with a subject similar to "", and it is important to keep record of this email in case you have any billing questions. If you did not receive a Welcome email, please email orders@sugarcrm.com to have a copy forwarded. The Welcome email contains the following information:
+&lt;strong&gt;SugarCRM Inc.: Order # 5200\. notification&lt;/strong&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A summary of all products purchased along with your order number.&lt;/li&gt;
+&lt;li&gt;A link to your On-Demand instance and admin login credentials.&lt;/li&gt;
+&lt;li&gt;
+Your download key for downloading the software, plug-ins and documentation from our&nbsp;.
+&lt;a class="external" href="https://www.sugarcrm.com/sugarshop/download" title="https://www.sugarcrm.com/sugarshop/download"&gt;Download Manager&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Configure&lt;/h3&gt;
+&lt;p&gt;Upon your first successful login, you will be prompted to go through two configuration wizards:&lt;/p&gt;
+&lt;h4&gt;Admin Wizard&lt;/h4&gt;
+&lt;p&gt;The Admin Wizard assists you with configuring the most common systemwide settings. All of these settings can be changed under the Admin section at a later time if desired:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+: The system name appears in the browser tab, and the company logo shows in the top left corner of Sugar.
+&lt;strong&gt;Branding&lt;/strong&gt;
+&lt;/li&gt;
+&lt;li&gt;
+:&nbsp;Set the default date, time, language, currency and name formats for the system.
+&lt;strong&gt;System Locale Settings&lt;/strong&gt;
+&lt;/li&gt;
+&lt;li&gt;
+:Enter the credentials for the system outbound email server as this is used for delivering user notifications, forgotten passwords, workflow alerts and much more. You may need to review  to allow your SMTP server to communicate with our On-Demand environment.
+&lt;strong&gt;SMTP Server Specification&lt;/strong&gt;
+&lt;strong/&gt;
+&lt;a title="04_Find_Answers/02KB/02Administration/100Email/Configuring_Your_SMTP_Server_to_Work_with_Your_On-Demand_Sugar_Instance_(IP_Ranges)" href="//04_Find_Answers/02KB/02Administration/100Email/Configuring_Your_SMTP_Server_to_Work_With_On-Demand"&gt;the following article&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;User Wizard&lt;/h4&gt;
+&lt;p&gt;Once the Admin Wizard is completed, you are then directed to the User Wizard. Every user is prompted through this wizard on their first successful login. All of these settings can be changed under the user's profile at a later time if desired:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+: Enter all your personal information including name, email address, physical address and Instant Messenger name.
+&lt;strong&gt;Your Information&lt;/strong&gt;
+&lt;/li&gt;
+&lt;li&gt;
+:Set your desired date, time, language, currency and name formats.
+&lt;strong&gt;Your Locale&lt;/strong&gt;
+&lt;strong/&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Customer Portal&lt;/h3&gt;
+&lt;p&gt;With Sugar Ultimate, we also provide you the option to configure a customer portal so that your customers can log in, submit cases and bugs, review your public knowledge base, and much more. With the customer portal, you have two options for hosting: On-Demand or On-Site. The following is a comparison breakdown between the two hosting options:&lt;/p&gt;
+&lt;table border="1\. cellpadding="1\. cellspacing="1\. style="width: 100%; table-layout: fixed;"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;strong&gt;Feature&lt;/strong&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;strong&gt;On-Demand Portal&lt;/strong&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;strong&gt;On-Site Portal&lt;/strong&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Installation &amp; Setup&lt;/td&gt;
+&lt;td&gt;The initial installation and configuration of the portal is performed by our Operations team once a request is received from you via a support ticket.&lt;/td&gt;
+&lt;td&gt;The installation and configuration must be completed by you. The server hosting the portal must be capable of processing PHP web pages.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Advanced Configuration &amp; Customization&lt;/td&gt;
+&lt;td&gt;Form layouts can be defined via the Admin interface from the main application. Code level customization and visual changes will need to be performed by our Professional Services team.&lt;/td&gt;
+&lt;td&gt;Form layouts can be define via the Admin interface from the main application. Code level customizations and visual changes can be performed on the portal pages by a developer.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Authorized Contacts&lt;/td&gt;
+&lt;td&gt;Up to 5\. contacts can be authorized for portal access.&lt;/td&gt;
+&lt;td&gt;An unlimited number of contacts can be authorized for portal access. This restriction must be lifted on the main application so a support ticket should be filed for this request.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p/&gt;
+&lt;h4&gt;On-Demand Portal&lt;/h4&gt;
+&lt;p&gt;
+If you wish to have SugarCRM host your customer portal, please . Our operations team will set up the portal with your instance of Sugar and we will provide you rest to of the details to get started using the portal. Once the portal is set up, review our  for your version of Sugar Ultimate.
+&lt;a class="external" href="http://production.sugarcrm.com/support/portal" title="http://production.sugarcrm.com/support/portal"&gt;file a support ticket&lt;/a&gt;
+&lt;a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate"&gt;Portal User Guide&lt;/a&gt;
+&lt;/p&gt;
+&lt;h4&gt;On-Site Portal&lt;/h4&gt;
+&lt;p&gt;
+To host the portal on your own server, you will first need to  for your version of Sugar Ultimate. Once the files are downloaded, please review the  for the appropriate version. This guide will walk you through the installation and initial configuration to have a functioning customer portal. Finally, review the  for your version to understand how to configure and utilize the portal moving forward.
+&lt;a class="external" href="http://production.sugarcrm.com/sugarshop/downloads" title="http://production.sugarcrm.com/sugarshop/downloads"&gt;download the portal files&lt;/a&gt;
+&lt;a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate"&gt;Portal Installation Guide&lt;/a&gt;
+&lt;a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate"&gt;Portal User Guide&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;Recommended Sugar Settings&lt;/h3&gt;
+&lt;p&gt;With your On-Demand instance, there a few other settings you should be familiar with as an administrator to ensure you will receive the best performance possible:&lt;/p&gt;
+&lt;table border="1\. cellpadding="1\. cellspacing="1\. style="width: 100%; table-layout: fixed;"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;strong&gt;Setting&lt;/strong&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;strong&gt;Location&lt;/strong&gt;
+&lt;/td&gt;
+&lt;td style="width: 81px;"&gt;
+&lt;strong&gt;Default Value&lt;/strong&gt;
+&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;
+&lt;strong&gt;Description&lt;/strong&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Maximum upload size&lt;/td&gt;
+&lt;td&gt;Admin &gt; System Settings&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;3000000\. (~3\. MB)&lt;/td&gt;
+&lt;td style="text-align: left; width: 234px;"&gt;The 'Maximum upload size' controls the maximum file size your users can upload into Sugar. The maximum our environment will allow is 3\. MB, and Ultimate customers are allotted 25\. GB of total file and database storage with On-Demand.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ListView items per page&lt;/td&gt;
+&lt;td&gt;Admin &gt; System Settings&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;20&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;This setting controls the maximum number of records shown per page on a module's listview. We recommend that this setting remain between 2\. and 10\. to keep within acceptable performance levels. As additional fields are added to the listview, this number should be at the lower end of the recommended setting.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Subpanel items per page&lt;/td&gt;
+&lt;td&gt;Admin &gt; System Settings&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;10&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;Similar to the ListView items per page, this setting is not recommended to be above 10\. Subpanels show on a module detailview and most modules will display multiple subpanels. Increasing this number will result in decreased performance for your users.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Developer Mode&lt;/td&gt;
+&lt;td&gt;Admin &gt; System Settings&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;Off&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;Developer Mode is a setting intended for developers to test out code-level customizations without the need to manually rebuild the cache. This setting is recommended to be turned off to ensure optimal performance for end users.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Display module icon as favicon&lt;/td&gt;
+&lt;td&gt;Admin &gt; System Settings&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;Off&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;If your users utilize tab browsing frequently, turning this setting on will help them efficiently manage their browser tabs. With the setting enabled, the tab label will reflect an icon corresponding with the module in use as well the record's name (if applicable).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Log Level&lt;/td&gt;
+&lt;td&gt;Admin &gt; System Settings&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;Fatal&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;'Log Level' governs the level of logging in Sugar. Unless otherwise instructed for troubleshooting, it is not recommended to change this level from the default setting.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tracker Performance&lt;/td&gt;
+&lt;td&gt;Admin &gt; Tracker&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;Off&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;'Tracker Peformance' should only be used for diagnostics. Please leave this setting disabled unless instructed by SugarCRM Support.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tracker Queries&lt;/td&gt;
+&lt;td&gt;Admin &gt; Tracker&lt;/td&gt;
+&lt;td style="text-align: center; width: 81px;"&gt;Off&lt;/td&gt;
+&lt;td style="width: 234px;"&gt;'Tracker Queries' should only be used for diagnostics. Please leave this setting disabled unless instructed by SugarCRM Support.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p/&gt;
+&lt;h2&gt;What's Next&lt;/h2&gt;
+&lt;p class="comment"&gt;Use the section below to describe additional considerations that were omitted for brevity and to guide the reader to further tutorials.&lt;/p&gt;
+&lt;p&gt;Now that you have logged in and configured some of the recommended settings for Sugar Ultimate, please review the following resources to take the next steps in building a successful and powerful Sugar implementation!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+: If you are interested in configuring your smartphone to work with Sugar, start here.
+&lt;a title="01_Get_Started/02_Administrators/06_Ultimate/03_Mobile" href="//01_Get_Started/02_Administrators/06_Ultimate/03_Mobile"&gt;Get Started with Sugar Mobile&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+: Integrating Microsoft Office and Lotus Notes and only a few clicks away!
+&lt;a title="01_Get_Started/02_Administrators/06_Ultimate/04_Plug-Ins" href="//01_Get_Started/02_Administrators/06_Ultimate/04_Plug-Ins"&gt;Get Started with Sugar Plug-Ins&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+: Before you begin configuring Sugar, we highly recommend reviewing our best practices on adding custom modules to Sugar.
+&lt;a title="04_Find_Answers/02KB/02Administration/100Studio_and_Module_Builder/Best_Practices_When_Building_Custom_Modules" href="//04_Find_Answers/02KB/02Administration/100Studio_and_Module_Builder/01_Best_Practices_When_Building_Custom_Modules"&gt;Best Practices When Building Custom Modules&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+:&nbsp;Review the Administration and Application guides for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.
+&lt;a title="02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate" href="//02_Documentation/01_Sugar_Editions/01_Sugar_Ultimate"&gt;Documentation&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+:&nbsp;Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.
+&lt;a title="03_Training" href="//03_Training"&gt;Training&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+: Review our extensive online knowledge base for answers to your questions, solutions to your business needs, and more!
+&lt;a title="04_Find_Answers/02KB" href="//04_Find_Answers/02KB"&gt;Knowledge Base&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+:&nbsp;Our forums&nbsp;are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.
+&lt;a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums"&gt;Customer Forums&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Related&lt;/h2&gt;
+&lt;p class="comment"&gt;This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.&lt;/p&gt;
+&lt;pre class="script"&gt;template("MindTouch/IDF/SeeAlso")&lt;/pre&gt;
+&lt;br/&gt;
+&lt;/div&gt;
