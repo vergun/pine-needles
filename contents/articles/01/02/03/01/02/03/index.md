@@ -1,1 +1,1 @@
-Type your article text here
+Type your article text hered
