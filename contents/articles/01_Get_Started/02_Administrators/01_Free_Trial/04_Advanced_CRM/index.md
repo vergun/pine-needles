@@ -1,8 +1,7 @@
 ---
 title: Advanced CRMaaaaaa
-template: article.jade
+template: article.jaded
 ---
 
 
-              &lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream
-             
+              Updated upstreamsdfgdfsgdfsgdfgdfg
