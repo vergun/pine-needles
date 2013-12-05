@@ -1,9 +1,5 @@
----
-title: Mobile
-template: article.jade
----
 
-<div class="container">
+              <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
@@ -27,7 +23,7 @@ template: article.jade
     <li>
       - The full URL of your Sugar Corporate instance including https or http (e.g. https://<myinstancename>.sugarondemand.com)
       <strong>Sugar URL</strong>
-    </li>
+    </myinstancename></li>
   </ul>
   <p>Once your credentials are entered, click the 'Login' button and begin using Sugar Mobile!</p>
   <h3>What's Next</h3>
@@ -75,7 +71,7 @@ template: article.jade
         <li>
           - Enter your On-Demand instance URL without the 'https'. (e.g. <myinstancename>.sugarondemand.com) This URL can be obtained from your Sugar administrator if you do not have this information.
           <strong>On-Demand Instance Name</strong>
-        </li>
+        </myinstancename></li>
         <li>
           - Enter your email address
           <strong>Email</strong>
@@ -104,7 +100,8 @@ template: article.jade
     </li>
   </ul>
   <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.</p>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
+  <br>
 </div>
+             
