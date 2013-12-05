@@ -3,7 +3,8 @@ title: Community
 template: article.jade
 ---
 
-<div class="container">
+
+              <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
@@ -28,7 +29,8 @@ template: article.jade
     <a class="external" href="http://www.sugarcrm.com/support/bugs.html" title="http://www.sugarcrm.com/support/bugs.html">search our Bug Tracker</a>
   </p>
   <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.</p>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
+  <br>
 </div>
+             
