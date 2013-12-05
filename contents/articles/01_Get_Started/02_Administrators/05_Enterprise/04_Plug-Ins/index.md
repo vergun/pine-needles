@@ -1,9 +1,5 @@
----
-title: Plug-Ins
-template: article.jade
----
 
-<div class="container">
+              <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
@@ -19,7 +15,7 @@ template: article.jade
   </p>
   <h3>Microsoft Word</h3>
   <p>
-    The Word plug-in allows you to perform mail merges either from Word or from Sugar. Please note that in order to use this plug-in, the 'Enable mail merge' option must be selected under Admin > System Settings as well as the 'Mail Merge' option under the Advanced tab of the user's profile. The  provides you the next steps to generate your mail merge document.
+    The Word plug-in allows you to perform mail merges either from Word or from Sugar. Please note that in order to use this plug-in, the 'Enable mail merge' option must be selected under Admin &gt; System Settings as well as the 'Mail Merge' option under the Advanced tab of the user's profile. The  provides you the next steps to generate your mail merge document.
     <a title="02_Documentation/03_Sugar_Plug-ins/Sugar_Plug-ins_6.4/Sugar_Plug-in_for_MS_Word_6.4.0_User_Guide" href="//02_Documentation/03_Plug-ins/Sugar_Plug-ins_6.4/Sugar_Plug-in_for_MS_Word_6.4.0_User_Guide">Word plug-in user guide</a>
   </p>
   <h3>Microsoft Excel</h3>
@@ -30,7 +26,8 @@ template: article.jade
     <a title="02_Documentation/03_Sugar_Plug-ins/Sugar_Plug-ins_6.4/Sugar_Plug-in_for_MS_Excel_User_Guide_6.2" href="//02_Documentation/03_Plug-ins/Sugar_Plug-ins_6.4/Sugar_Plug-in_for_MS_Excel_User_Guide_6.2">Notes plug-in user guide</a>
   </p>
   <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.</p>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
+  <br>
 </div>
+             
