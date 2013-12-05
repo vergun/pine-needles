@@ -1,9 +1,5 @@
----
-title: On-Demand
-template: article.jade
----
 
-
+              
               
               <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
@@ -63,4 +59,5 @@ template: article.jade
   <br>
 </strong></div><strong>
              </strong>
+             
              
