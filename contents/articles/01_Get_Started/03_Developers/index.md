@@ -1,3 +1,8 @@
+---
+title: Developers
+template: article.jade
+---
+
 
               <div class="container">
   <div class="landign-page" id="get-started">
