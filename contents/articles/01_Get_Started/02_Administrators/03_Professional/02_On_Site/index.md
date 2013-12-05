@@ -1,9 +1,5 @@
----
-title: On-Site
-template: article.jade
----
 
-
+              
               <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
@@ -191,3 +187,4 @@ template: article.jade
   <br>
 </strong></strong></div><strong><strong>
              </strong></strong>
+             
