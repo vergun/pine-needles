@@ -1,9 +1,5 @@
----
-title: On-Site
-template: article.jade
----
 
-<div class="container">
+              <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
@@ -23,9 +19,9 @@ template: article.jade
     <li>
       :Set your desired date, time, language, currency and name formats.
       <strong>Your Locale</strong>
-      <strong/>
-    </li>
-  </ol>
+      <strong>
+    </strong></li><strong>
+  </strong></ol><strong>
   <h2>What's Next</h2>
   <p class="comment">Use the section below to describe additional considerations that were omitted for brevity and to guide the reader to further tutorials.</p>
   <p>Now that you have logged in and configured some of the recommended settings for Sugar, please review the following resources to take the next steps in building a successful and powerful Sugar implementation!</p>
@@ -39,11 +35,11 @@ template: article.jade
       <a title="Plug-Ins" href="//01_Get_Started/01_End_Users/03_Professional/04_Plug-Ins">Get Started with Sugar Plug-Ins</a>
     </li>
     <li>
-      : Review the Application guide for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.
+      :&nbsp;Review the Application guide for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.
       <a title="02_Documentation/01_Sugar_Editions/02_Sugar_Enterprise" href="//02_Documentation/01_Sugar_Editions/02_Sugar_Enterprise">Documentation</a>
     </li>
     <li>
-      : Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.
+      :&nbsp;Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.
       <a title="03_Training" href="//03_Training">Training</a>
     </li>
     <li>
@@ -51,12 +47,13 @@ template: article.jade
       <a title="04_Find_Answers/02KB" href="//04_Find_Answers/02KB">Knowledge Base</a>
     </li>
     <li>
-      : Our forums are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.
+      :&nbsp;Our forums&nbsp;are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.
       <a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums">Customer Forums</a>
     </li>
   </ul>
   <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.</p>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
-</div>
+  <br>
+</strong></div><strong>
+             </strong>
