@@ -3,7 +3,8 @@ title: Mobile
 template: article.jade
 ---
 
-<div class="container">
+
+              <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
@@ -15,7 +16,7 @@ template: article.jade
   <p class="comment">Use each step section to describe the instructions needed to achieve the goal.</p>
   <h3>Enable Modules</h3>
   <ol>
-    <li>Go to Admin > Mobile</li>
+    <li>Go to Admin &gt; Mobile</li>
     <li>Set the desired items per page for listviews and subpanels. Since this is designed for quick, mobile access, we recommend leaving the default values of 10 and 3 respectively to ensure quick load times.</li>
     <li>Drag the modules you wish to have available for mobile access to the 'Enabled Modules' section.</li>
     <li>Click the 'Save' button to finalize your changes.</li>
@@ -23,7 +24,7 @@ template: article.jade
   <h3>Configure Mobile Layouts</h3>
   <p>For any modules you have enabled for mobile access, follow the below process to configure the layouts in the mobile application. We will use the Accounts module as an example for configuring the mobile layouts.</p>
   <ol>
-    <li>Go to Admin > Studio > Accounts > Mobile Layouts</li>
+    <li>Go to Admin &gt; Studio &gt; Accounts &gt; Mobile Layouts</li>
     <li>Select the layout you wish to edit.</li>
     <li>
       For EditView and DetailView:
@@ -39,7 +40,7 @@ template: article.jade
         <li>You can remove fields from the layout by dragging fields to the 'Hidden' column</li>
       </ol>
     </li>
-    <li>Once you have finished editing the layout, click the 'Save & Deploy' button to finalize your changes and proceed with editing other layouts.</li>
+    <li>Once you have finished editing the layout, click the 'Save &amp; Deploy' button to finalize your changes and proceed with editing other layouts.</li>
   </ol>
   <h3>Log Into Sugar Mobile</h3>
   <p>The Sugar Mobile application is available for download in the Google Play Store and iTunes App Store. Download the application to your phone and open it once it is installed. Upon opening the applicatiion for the first time, you will be directed to the login screen. Enter the following information to log in:</p>
@@ -55,7 +56,7 @@ template: article.jade
     <li>
       - The full URL of your Sugar Professional instance including https or http (e.g. https://<myinstancename>.sugarondemand.com)
       <strong>Sugar URL</strong>
-    </li>
+    </myinstancename></li>
   </ul>
   <p>Once your credentials are entered, click the 'Login' button and begin using Sugar Mobile!</p>
   <h3>What's Next</h3>
@@ -83,14 +84,14 @@ template: article.jade
       Open the email titled 'Sugar Mobile Plus Activation Details' that you received regarding your Sugar Mobile+ server. If you did not receive this email and you purchased Sugar Mobile+, .
       <a href="http://www.sugarcrm.com/support/portal" title="http://www.sugarcrm.com/support/portal" class=" external">please open a support ticket</a>
     </li>
-    <li>Click on the Sugar Mobile Plus Server link in the email. The link should look similar to http://us1.sugarmobileplus.com/<yourinstancename>.</li>
+    <li>Click on the Sugar Mobile Plus Server link in the email. The link should look similar to http://us1.sugarmobileplus.com/<yourinstancename>.</yourinstancename></li>
     <li>Once you are on your Sugar Mobile Plus server login page, log in using the temporary admin username and password that were provide in the email. Please note that the credentials are case-sensitive and must be copied exactly.</li>
     <li>Once logged in, click 'Configuration' on the left-hand side of the page and then select 'Global Settings'.</li>
     <li>
       In the SugarCRM Settings section, the SugarCRM URL field is prepopulated with your On-Demand instance.
       <ol>
         <li>If your instance will be hosted On-Demand, do not change this value</li>
-        <li>If your instance will be hosted On-Site, update this value to your URL followed by /soap.php (e.g. https://<my instance URL>/soap.php)</li>
+        <li>If your instance will be hosted On-Site, update this value to your URL followed by /soap.php (e.g. https://<my instance="" url="">/soap.php)</my></li>
       </ol>
     </li>
     <li>In the SugarCRM Settings section and right below the SugarCRM URL field, update the Login ID and Password fields with admin credentials for your Sugar Professional instance.</li>
@@ -117,10 +118,10 @@ template: article.jade
     Log Into Mobile+
     <span>
       <span>
-        <span/>
+        <span>
       </span>
     </span>
-  </h3>
+  </span></h3>
   <ol>
     <li>Once the application is downloaded and installed on your device, open the application and click 'Connect to My Sugar'.</li>
     <li>
@@ -129,7 +130,7 @@ template: article.jade
         <li>
           - Enter your On-Demand instance URL without the 'https'. (e.g. <myinstancename>.sugarondemand.com) This URL can be found in your activation email.
           <strong>On-Demand Instance Name</strong>
-        </li>
+        </myinstancename></li>
         <li>
           - Enter your email address
           <strong>Email</strong>
@@ -167,7 +168,8 @@ template: article.jade
     </li>
   </ul>
   <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.</p>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
+  <br>
 </div>
+             
