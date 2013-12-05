@@ -3,7 +3,8 @@ title: Introduction to CRM (Customer Relationship Management)
 template: article.jade
 ---
 
-<div class="container">
+
+              <div class="container">
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
   <p>Understanding Customer Relationship Management will help you get the most from your Sugar implementation.</p>
@@ -25,7 +26,7 @@ template: article.jade
   <p>The graphic below illustrates some challenges companies face in key functional areas.</p>
   <p>
     <a class="thumb" title="g1.png" href="//01_Get_Started/01_End_Users/01_Free_Trial/02_Introduction_to_CRM/g1.png">
-      <img alt="g1.png" class="internal default" style="width: 549px; height: 454px;" width="549px" height="454px" src="g1.png"/>
+      <img alt="g1.png" class="internal default" style="width: 549px; height: 454px;" width="549px" height="454px" src="g1.png">
     </a>
   </p>
   <h2>Improving Customer Facing Interaction</h2>
@@ -34,11 +35,11 @@ template: article.jade
   <p>The graphic below shows how CRM can manage important customer-facing functions across channels and systems.</p>
   <p>
     <a class="thumb" title="g2.png" href="//01_Get_Started/01_End_Users/01_Free_Trial/02_Introduction_to_CRM/g2.png">
-      <img alt="g2.png" class="internal default" style="width: 550px; height: 413px;" width="550px" height="413px" src="g2.png"/>
+      <img alt="g2.png" class="internal default" style="width: 550px; height: 413px;" width="550px" height="413px" src="g2.png">
     </a>
   </p>
   <h2>Automating Customer Facing Processes</h2>
-  <p>CRM applications automate certain customer-facing processes and provide solutions around key functional areas to enable companies to interact with customers in a more consistent, structured approach.  The solutions are described in the table below.</p>
+  <p>CRM applications automate certain customer-facing processes and provide solutions around key functional areas to enable companies to interact with customers in a more consistent, structured approach.&nbsp; The solutions are described in the table below.</p>
   <table border="1" cellpadding="0" cellspacing="0" style="width: 540px;" width="506">
     <tbody>
       <tr>
@@ -59,7 +60,7 @@ template: article.jade
       </tr>
       <tr>
         <td>
-          <br clear="all"/>
+          <br clear="all">
           <p>Customer Support</p>
         </td>
         <td style="width: 398px;">
@@ -87,13 +88,13 @@ template: article.jade
           <p>Reporting</p>
         </td>
         <td style="width: 398px;">
-          <p>Reporting tools capture the activities and business results of different lines of business and presents them to management in a readily understandable set of charts and reports.  This provides company leaders with the information they need to make intelligent decisions.</p>
+          <p>Reporting tools capture the activities and business results of different lines of business and presents them to management in a readily understandable set of charts and reports.&nbsp; This provides company leaders with the information they need to make intelligent decisions.</p>
         </td>
       </tr>
     </tbody>
   </table>
   <h2>CRM Strategy</h2>
-  <p>CRM applications are an integral piece of the overall customer experience.  These systems work best when a clear CRM strategy is in place.  Building a true customer-centric organization requires companies to:</p>
+  <p>CRM applications are an integral piece of the overall customer experience.&nbsp; These systems work best when a clear CRM strategy is in place.&nbsp; Building a true customer-centric organization requires companies to:</p>
   <ul>
     <li>Establish measurable business goals.</li>
     <li>Align business and IT organizations.</li>
@@ -103,26 +104,26 @@ template: article.jade
     <li>Invest in training for end users.</li>
     <li>Measure, monitor, and track results.</li>
   </ul>
-  <p>A CRM application should be part of a company’s overall business strategy.  Business alignment is key to user adoption and business success.</p>
+  <p>A CRM application should be part of a company’s overall business strategy.&nbsp; Business alignment is key to user adoption and business success.</p>
   <h2>Basic CRM Demos</h2>
   <p>
     <a class="external" href="http://www.sugarcrm.com/demo/sales-force-automation-demo" title="http://www.sugarcrm.com/demo/sales-force-automation-demo">
-      <img alt="DemoSales.jpg" class="internal default" src="DemoMarketing.jpg"/>
+      <img alt="DemoSales.jpg" class="internal default" src="DemoMarketing.jpg">
     </a>
   </p>
   <p>
     <strong>
       <a class="external" href="http://www.sugarcrm.com/demo/sales-force-automation-demo" title="http://www.sugarcrm.com/demo/sales-force-automation-demo">
-        <img alt="bullet_play_red.gif" class="internal default" src="bullet_play_red.gif"/>
+        <img alt="bullet_play_red.gif" class="internal default" src="bullet_play_red.gif">
       </a>
     </strong>
     <a class="external" href="http://www.sugarcrm.com/demo/sales-force-automation-demo" title="http://www.sugarcrm.com/demo/sales-force-automation-demo">Sales Force Automation Demo</a>
   </p>
-  <p/>
   <p>
+  </p><p>
     <a class="external" href="http://www.sugarcrm.com/demos" title="http://www.sugarcrm.com/demos">
       More demos on using CRM in your organization
-      <img alt="bullet_play_red.gif" class="internal default" style="" src="bullet_play_red.gif"/>
+      <img alt="bullet_play_red.gif" class="internal default" style="" src="bullet_play_red.gif">
     </a>
   </p>
   <h2>Advanced CRM Demos</h2>
@@ -130,28 +131,29 @@ template: article.jade
   <h3>Creating Effective Workflows</h3>
   <p>
     <a title="03_Training/02_Videos/07_Creating_Effective_Workflows_in_Sugar" href="//03_Training/02_Videos/07_Creating_Effective_Workflows_in_Sugar">
-      <img alt="form-workflows.jpg" class="internal default" src="form-workflows.jpg"/>
+      <img alt="form-workflows.jpg" class="internal default" src="form-workflows.jpg">
     </a>
   </p>
   <p>
     <a class="external" title="mks://localhost/03_Training/02_Videos/07_Creating_Effective_Workflows_in_Sugar" href="//03_Training/02_Videos/07_Creating_Effective_Workflows_in_Sugar">
-      <img alt="bullet_play_red.gif" class="internal default" style="" src="bullet_play_red.gif"/>
+      <img alt="bullet_play_red.gif" class="internal default" style="" src="bullet_play_red.gif">
     </a>
     <a title="03_Training/02_Videos/07_Creating_Effective_Workflows_in_Sugar" href="//03_Training/02_Videos/07_Creating_Effective_Workflows_in_Sugar">Creating Effective Workflows</a>
   </p>
   <h3>Configuration Tools</h3>
   <p>
     <a class="external" href="http://www.sugarcrm.com/demo/administration-demo" title="http://www.sugarcrm.com/demo/administration-demo">
-      <img alt="DemoCustom.jpg" class="internal default" src="DemoCustom.jpg"/>
+      <img alt="DemoCustom.jpg" class="internal default" src="DemoCustom.jpg">
     </a>
   </p>
   <p>
     <a class="external" href="http://www.sugarcrm.com/demo/administration-demo" title="http://www.sugarcrm.com/demo/administration-demo">
       How to Configure Sugar
-      <img alt="bullet_play_red.gif" class="internal default" src="bullet_play_red.gif"/>
+      <img alt="bullet_play_red.gif" class="internal default" src="bullet_play_red.gif">
     </a>
   </p>
   <h2>Related</h2>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
+  <br>
 </div>
+             
