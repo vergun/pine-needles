@@ -1,0 +1,20 @@
+script.
+  var searchbox = function() {
+    var amnt = 0;
+    var boxes = document.getElementsByClassName('sugar-search');
+    if (boxes.length > 1) {
+      ++amnt;
+    }
+    boxes[amnt].innerHTML = '<div class="gcse-searchbox-only" \
+        data-resultsURL="http://support.sugarcrm.com/search" ></div>';
+  }
+  $(document).ready(searchbox);
+
+script.
+  (function() {
+    var cx = '007718218132233243975:ul-b5k2dwgm';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+      '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();

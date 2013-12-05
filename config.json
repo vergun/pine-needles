@@ -1,12 +1,12 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "Support",
+    "name": "SugarCRM Support",
     "owner": "SugarCRM",
     "description": "SugarCRM Support"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/pdf.coffee"
   ],
   "require": {
     "moment": "moment",
@@ -19,8 +19,5 @@
   "markdown": {
     "smartLists": true,
     "smartypants": true
-  },
-  "paginator": {
-    "perPage": 3
   }
 }
