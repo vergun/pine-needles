@@ -1,9 +1,10 @@
 ---
-title: Initial Configurationasbad
+title: Initial Configurationasbada
 template: article.jade
 ---
 
 
+              
               
               <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
@@ -57,4 +58,5 @@ template: article.jade
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
 
              </strong>
+             
              
