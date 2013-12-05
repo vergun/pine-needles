@@ -1,9 +1,11 @@
 ---
 title: Developerss
 template: article.jade
+Type: Kind
 ---
 
 
+              
               
               <div class="container">
   <div class="landign-page" id="get-started">
@@ -22,5 +24,6 @@ template: article.jade
     </div>
   </div>
 </div>
+             
              
              
