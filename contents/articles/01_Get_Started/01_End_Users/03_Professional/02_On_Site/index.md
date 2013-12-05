@@ -1,6 +1,6 @@
+---
+---
 
-              <div class="container"> <p class="comment">The following script renders the table of contents for this page.</p> <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre> <h2>Overview</h2> <p class="comment">Use the section below to provide a short description of the tutorial. The section is also used by other pages to provide an abstract of this page. The lead sentence should tell the reader enough about the tutorial to help them decide whether to read on or not.</p> <p>Welcome to Sugar Professional! You should be ready to proceed using your Sugar On-Site instance. Go through the following steps to log in and begin configuring Sugar.</p> <h3>Log In</h3> <p>Once your administrator creates a user account for you, they will either provide you with your password or one will be emailed directly to you by Sugar depending on the system settings. In addition, you should also have URL of your instance that ends in sugarondemand.com or sugaropencloud.eu. Take this information to log in for the first time.</p> <h3>Configure</h3> <p>Upon your first successful login, you will be prompted to go through a user wizard:</p> <h4>User Wizard</h4> <p>Every user is prompted through the user wizard on their first successful login. All of these settings can be changed under your user profile at a later time if desired:</p> <ol> <li>
-             </li></ol></div>
-          
-          
-        
+
+              
+             
