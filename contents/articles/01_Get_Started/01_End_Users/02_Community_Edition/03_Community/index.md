@@ -5,6 +5,7 @@ template: article.jade
 
 
               
+              
               <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
@@ -34,5 +35,6 @@ template: article.jade
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
   <br>
 </div>
+             
              
              
