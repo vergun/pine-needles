@@ -1,1 +1,19 @@
 extends layout
+
+block vars
+  - if (bodyclass) bodyclass += ' home';
+  - else bodyclass = 'home';
+
+block title
+    =page.title
+
+block content
+
+    include partials/home/alert
+
+    div.col-md-8.col-md-offset-2
+        include partials/search
+
+    section.content!= typogr(page.html).typogrify()
+
+    include partials/home/links
