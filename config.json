@@ -6,6 +6,7 @@
     "description": "SugarCRM Support"
   },
   "plugins": [
+    "wintersmith-less",
     "./plugins/pdf.coffee"
   ],
   "require": {
