@@ -1,5 +1,9 @@
+prepend head
+  meta(name="google-site-verification", content="Ty6_PWZJdO7A6jwnkYj1axry76GI1h-CuY81TrY9mbc")
+
 script.
   var searchbox = function() {
+    var input = document.createElement('input');
     var amnt = 0;
     var boxes = document.getElementsByClassName('sugar-search');
     if (boxes.length > 1) {
@@ -7,6 +11,12 @@ script.
     }
     boxes[amnt].innerHTML = '<div class="gcse-searchbox-only" \
         data-resultsURL="http://support.sugarcrm.com/search" ></div>';
+
+    if ('placeholder' in input) {
+      setTimeout(function() {
+         $('.sugar-search input[type="text"]').attr('placeholder', 'Find documentation, videos, training and more...');
+      }, 1000);
+    }
   }
   $(document).ready(searchbox);
 
