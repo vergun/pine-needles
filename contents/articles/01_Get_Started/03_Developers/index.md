@@ -1,13 +1,9 @@
 ---
-title: Developerss
+title: Developers
 template: article.jade
-Type: Kind
 ---
 
-
-              
-              
-              <div class="container">
+<div class="container">
   <div class="landign-page" id="get-started">
     <p class="landing-intro">Getting started with Sugar development is a simple, straightforward process. Select the section below that we can assist you in setting up and configuring.</p>
     <div class="enclosed-block rounded-corners shadow" id="on-demand">
@@ -24,6 +20,3 @@ Type: Kind
     </div>
   </div>
 </div>
-             
-             
-             
