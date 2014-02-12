@@ -4,6 +4,7 @@ template: article.jade
 ---
 
 
+              
               <div class="container">
   <p class="comment">
   </p><h2>Getting Started with Sugar</h2>
@@ -78,4 +79,5 @@ template: article.jade
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
   <br>
 </div>
+             
              

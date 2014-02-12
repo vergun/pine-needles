@@ -3,7 +3,8 @@ title: On-Demand
 template: article.jade
 ---
 
-<div class="container">
+
+              <div class="container">
   <p class="comment">The following script renders the table of contents for this page.</p>
   <pre class="script">template("MindTouch/IDF/Views/TableOfContents");</pre>
   <h2>Overview</h2>
@@ -11,7 +12,7 @@ template: article.jade
   <p>Every customer who purchases Sugar Professional has the option to run Sugar on a server of their choice or in our On-Demand environment. Running in our On-Demand environment allows for a number of value-added benefits:</p>
   <ul>
     <li>
-      - Our On-Demand Operations team maintains the entire server environment for you. We take the proper precautions to ensure the customizations our customers load will not negatively impact the global environment. Additionally, you can always check on the status of our On-Demand servers at .
+      - Our On-Demand Operations team maintains the entire server environment for you. We take the proper precautions to ensure the customizations our customers load will not negatively impact the global environment. Additionally, you can always check on the status of our On-Demand servers at&nbsp;.
       <strong>Stability</strong>
       <a class="external" href="http://status.sugarcrm.com/" title="http://status.sugarcrm.com/">http://status.sugarcrm.com/</a>
     </li>
@@ -34,7 +35,7 @@ template: article.jade
     <li>A summary of all products purchased along with your order number.</li>
     <li>A link to your On-Demand instance and admin login credentials.</li>
     <li>
-      Your download key for downloading the software, plug-ins and documentation from our .
+      Your download key for downloading the software, plug-ins and documentation from our&nbsp;.
       <a class="external" href="https://www.sugarcrm.com/sugarshop/download" title="https://www.sugarcrm.com/sugarshop/download">Download Manager</a>
     </li>
   </ul>
@@ -48,16 +49,16 @@ template: article.jade
       <strong>Branding</strong>
     </li>
     <li>
-      : Set the default date, time, language, currency and name formats for the system.
+      :&nbsp;Set the default date, time, language, currency and name formats for the system.
       <strong>System Locale Settings</strong>
     </li>
     <li>
       :Enter the credentials for the system outbound email server as this is used for delivering user notifications, forgotten passwords, workflow alerts and much more. You may need to review  to allow your SMTP server to communicate with our On-Demand environment.
       <strong>SMTP Server Specification</strong>
-      <strong/>
+      <strong>
       <a title="04_Find_Answers/02KB/02Administration/100Email/Configuring_Your_SMTP_Server_to_Work_with_Your_On-Demand_Sugar_Instance_(IP_Ranges)" href="//04_Find_Answers/02KB/02Administration/100Email/Configuring_Your_SMTP_Server_to_Work_With_On-Demand">the following article</a>
-    </li>
-  </ol>
+    </strong></li><strong>
+  </strong></ol><strong>
   <h4>User Wizard</h4>
   <p>Once the Admin Wizard is completed, you are then directed to the User Wizard. Every user is prompted through this wizard on their first successful login. All of these settings can be changed under the user's profile at a later time if desired:</p>
   <ol>
@@ -68,9 +69,9 @@ template: article.jade
     <li>
       :Set your desired date, time, language, currency and name formats.
       <strong>Your Locale</strong>
-      <strong/>
-    </li>
-  </ol>
+      <strong>
+    </strong></li><strong>
+  </strong></ol><strong>
   <h3>Recommended Sugar Settings</h3>
   <p>With your On-Demand instance, there a few other settings you should be familiar with as an administrator to ensure you will receive the best performance possible:</p>
   <table border="1" cellpadding="1" cellspacing="1" style="width: 100%; table-layout: fixed;">
@@ -91,56 +92,56 @@ template: article.jade
       </tr>
       <tr>
         <td>Maximum upload size</td>
-        <td>Admin > System Settings</td>
+        <td>Admin &gt; System Settings</td>
         <td style="text-align: center; width: 81px;">30000000 (~30 MB)</td>
         <td style="text-align: left; width: 234px;">The 'Maximum upload size' controls the maximum file size your users can upload into Sugar. The maximum our environment will allow is 32 MB, and Professional customers are allotted 15 GB of total file and database storage with On-Demand.</td>
       </tr>
       <tr>
         <td>ListView items per page</td>
-        <td>Admin > System Settings</td>
+        <td>Admin &gt; System Settings</td>
         <td style="text-align: center; width: 81px;">20</td>
         <td style="width: 234px;">This setting controls the maximum number of records shown per page on a module's listview. We recommend that this setting remain between 20 and 100 to keep within acceptable performance levels. As additional fields are added to the listview, this number should be at the lower end of the recommended setting.</td>
       </tr>
       <tr>
         <td>Subpanel items per page</td>
-        <td>Admin > System Settings</td>
+        <td>Admin &gt; System Settings</td>
         <td style="text-align: center; width: 81px;">10</td>
         <td style="width: 234px;">Similar to the ListView items per page, this setting is not recommended to be above 10. Subpanels show on a module detailview and most modules will display multiple subpanels. Increasing this number will result in decreased performance for your users.</td>
       </tr>
       <tr>
         <td>Developer Mode</td>
-        <td>Admin > System Settings</td>
+        <td>Admin &gt; System Settings</td>
         <td style="text-align: center; width: 81px;">Off</td>
         <td style="width: 234px;">Developer Mode is a setting intended for developers to test out code-level customizations without the need to manually rebuild the cache. This setting is recommended to be turned off to ensure optimal performance for end users.</td>
       </tr>
       <tr>
         <td>Display module icon as favicon</td>
-        <td>Admin > System Settings</td>
+        <td>Admin &gt; System Settings</td>
         <td style="text-align: center; width: 81px;">Off</td>
         <td style="width: 234px;">If your users utilize tab browsing frequently, turning this setting on will help them efficiently manage their browser tabs. With the setting enabled, the tab label will reflect an icon corresponding with the module in use as well the record's name (if applicable).</td>
       </tr>
       <tr>
         <td>Log Level</td>
-        <td>Admin > System Settings</td>
+        <td>Admin &gt; System Settings</td>
         <td style="text-align: center; width: 81px;">Fatal</td>
         <td style="width: 234px;">'Log Level' governs the level of logging in Sugar. Unless otherwise instructed for troubleshooting, it is not recommended to change this level from the default setting.</td>
       </tr>
       <tr>
         <td>Tracker Performance</td>
-        <td>Admin > Tracker</td>
+        <td>Admin &gt; Tracker</td>
         <td style="text-align: center; width: 81px;">Off</td>
         <td style="width: 234px;">'Tracker Peformance' should only be used for diagnostics. Please leave this setting disabled unless instructed by SugarCRM Support.</td>
       </tr>
       <tr>
         <td>Tracker Queries</td>
-        <td>Admin > Tracker</td>
+        <td>Admin &gt; Tracker</td>
         <td style="text-align: center; width: 81px;">Off</td>
         <td style="width: 234px;">'Tracker Queries' should only be used for diagnostics. Please leave this setting disabled unless instructed by SugarCRM Support.</td>
       </tr>
     </tbody>
   </table>
-  <p/>
-  <h2>What's Next</h2>
+  <p>
+  </p><h2>What's Next</h2>
   <p class="comment">Use the section below to describe additional considerations that were omitted for brevity and to guide the reader to further tutorials.</p>
   <p>Now that you have logged in and configured some of the recommended settings for Sugar Professional, please review the following resources to take the next steps in building a successful and powerful Sugar implementation!</p>
   <ul>
@@ -157,11 +158,11 @@ template: article.jade
       <a title="04_Find_Answers/02KB/02Administration/100Studio_and_Module_Builder/Best_Practices_When_Building_Custom_Modules" href="//04_Find_Answers/02KB/02Administration/100Studio_and_Module_Builder/01_Best_Practices_When_Building_Custom_Modules">Best Practices When Building Custom Modules</a>
     </li>
     <li>
-      : Review the Administration and Application guides for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.
+      :&nbsp;Review the Administration and Application guides for your version to get an in-depth understanding of all that Sugar has to offer. Also, the Release Notes will provide you with a quick snapshot of new features and functionality added to your release.
       <a title="02_Documentation/01_Sugar_Editions/04_Sugar_Professional" href="//02_Documentation/01_Sugar_Editions/04_Sugar_Professional">Documentation</a>
     </li>
     <li>
-      : Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.
+      :&nbsp;Review our How Do I...? guides, watch training videos, or sign up to receive classes from SugarCRM or one of our Authorized Learning Partners.
       <a title="03_Training" href="//03_Training">Training</a>
     </li>
     <li>
@@ -169,12 +170,13 @@ template: article.jade
       <a title="04_Find_Answers/02KB" href="//04_Find_Answers/02KB">Knowledge Base</a>
     </li>
     <li>
-      : Our forums are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.
+      :&nbsp;Our forums&nbsp;are open to anyone with a SugarCRM.com user ID and contain a wealth of knowledge as SugarCRM has grown over the years. Before posting a new topic, please be sure to search extensively to make sure the issue has not been raised previously.
       <a class="external" href="http://www.sugarcrm.com/forums" title="http://www.sugarcrm.com/forums">Customer Forums</a>
     </li>
   </ul>
   <h2>Related</h2>
-  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.  Remove this section if you do not want to show related pages.</p>
+  <p class="comment">This section automatically lists related pages, such as child pages or pages related by tags.&nbsp; Remove this section if you do not want to show related pages.</p>
   <pre class="script">template("MindTouch/IDF/SeeAlso")</pre>
-  <br/>
-</div>
+  <br>
+</strong></strong></div><strong><strong>
+             </strong></strong>
