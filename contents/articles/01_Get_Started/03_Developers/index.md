@@ -8,6 +8,12 @@ template: article.jade
               
               
               
+              
+              
+              
+=======
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
               <div class="container">
   <div class="landign-page" id="get-started">
     <p class="landing-intro">Getting started with Sugar development is a simple, straightforward process. Select the section below that we can assist you in setting up and configuring.</p>
@@ -25,7 +31,13 @@ template: article.jade
     </div>
   </div>
 </div>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream
              
+             
+             
+             
+=======
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
              
              
              
