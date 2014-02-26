@@ -13,6 +13,7 @@ template: article.jade
               
               
               
+              
 =======
 
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
@@ -40,6 +41,7 @@ template: article.jade
              
 =======
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
+             
              
              
              
